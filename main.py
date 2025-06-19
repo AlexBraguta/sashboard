@@ -1,4 +1,3 @@
-from credentials import API_KEY, API_SECRET
 from binance.um_futures import UMFutures
 from datetime import datetime, timezone
 from binance.error import ClientError
@@ -7,6 +6,14 @@ import altair as alt
 import pandas as pd
 import warnings
 import os
+
+
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
+
+if not API_KEY or not API_SECRET:
+    raise RuntimeError("Please set environment variables API_KEY and API_SECRET")
+
 
 # suppress openpyxl “no default style” warning
 warnings.filterwarnings("ignore", "Workbook contains no default style", UserWarning)

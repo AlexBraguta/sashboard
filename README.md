@@ -1,6 +1,6 @@
 # 📊  pnl-dashboard
 
-A lightweight Streamlit dashboard showing both **Today’s** and **Month-to-Date** Binance Futures PnL.
+A lightweight Streamlit dashboard showing both **Today’s** and **Month-to-Date** Binance Futures PnL.
 
 ---
 
@@ -17,7 +17,7 @@ A lightweight Streamlit dashboard showing both **Today’s** and **Month-to-Date
 ## 🔧 Prerequisites
 
 - **Python** 3.10+  
-- Binance API key & secret with USDC-perpetual permissions  
+- Binance API key
 - Excel export file at `~/Downloads/Export Trade History.xlsx` with columns: 
 
 ---
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## ⚙️ Configuration
 
-Create `credentials.py`:
+Environment key
 
 ``` bash
 API_KEY    = "your_api_key"
@@ -44,7 +44,7 @@ Place `Export Trade History.xlsx` in `~/Downloads`.
 ## ▶️ Usage
 
 ``` bash
-streamlit run main.py
+bash sashboard.sh
 ```
 
 Use the sidebar to toggle Today / Month-to-Date, then click Refresh Data.

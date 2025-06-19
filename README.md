@@ -1,4 +1,4 @@
-# 📊  pnl-dashboard
+# 📊  Sashboard (a.k.a Pnl-dashboard)
 
 A lightweight Streamlit dashboard showing both **Today’s** and **Month-to-Date** Binance Futures PnL.
 
@@ -49,7 +49,7 @@ bash sashboard.sh
 
 Use the sidebar to toggle Today / Month-to-Date, then click Refresh Data.
 
-## Screenshots
+## 🖼️ Screenshots
 Data is self-written for this example:
 
 Daily:
@@ -57,5 +57,6 @@ Daily:
 
 Monthly:
 ![monthly](img/monthly.png)
+
 ## 📄 License
 MIT © 2025

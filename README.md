@@ -49,5 +49,13 @@ bash sashboard.sh
 
 Use the sidebar to toggle Today / Month-to-Date, then click Refresh Data.
 
+## Screenshots
+Data is self-written for this example:
+
+Daily:
+![daily](img/daily.png)
+
+Monthly:
+![monthly](img/monthly.png)
 ## 📄 License
 MIT © 2025
